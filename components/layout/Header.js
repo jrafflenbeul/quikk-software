@@ -74,7 +74,9 @@ const Header = ({ navs }) => {
   };
 
   return (
-    <div className={`${styles.header} ${styles["header-appearance"]}`}>
+    <div
+      className={`${styles.header} ${styles["header-appearance"]} bottom-border`}
+    >
       <div className={styles.bar}>
         <BrandNameQuikkLink />
         <NavigationContainerDesktop />

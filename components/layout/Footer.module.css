@@ -5,7 +5,6 @@
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 -1px 1px 0 var(--black-transparent);
 }
 
 .footer .link-container-wrapper {

@@ -18,7 +18,7 @@ const Layout = ({ title, description, children }) => {
           <meta name="description" content={description} />
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
-          <meta property="og:site_name" content="QUIKK" />
+          <meta property="og:site_name" content={title} />
           <meta name="language" content="de" />
           <meta httpEquiv="language" content="de" />
           <meta charSet="utf-8" />

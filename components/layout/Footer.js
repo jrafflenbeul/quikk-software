@@ -146,7 +146,7 @@ const Footer = () => {
   };
 
   return (
-    <div className={styles.footer}>
+    <div className={`${styles.footer} top-border`}>
       <FooterLinks />
     </div>
   );
