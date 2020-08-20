@@ -4,7 +4,6 @@
   "description": "<!-- **quikk-software/quikk-software** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.1",
     "next": "^9.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
