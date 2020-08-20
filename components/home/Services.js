@@ -56,7 +56,8 @@ const Services = () => {
               key={i}
               heading={service.heading}
               text={service.text}
-              src={service.src}
+              // src={service.src}
+              src={"https://image.flaticon.com/icons/svg/207/207787.svg"}
             />
           );
         })}
