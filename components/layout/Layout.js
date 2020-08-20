@@ -5,7 +5,11 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = ({ title, description, children }) => {
-  title = `${title} | QUIKK`;
+  const fillTitle = "Software und Webdesign im Raum Bielefeld";
+  const fillDesc =
+    "Software und Webdesign im Raum Bielefeld. QUIKK ist Ihr Partner für individuelle Softwarelösungen, mobile Apps und einzigartige Webauftritte.";
+  title = `${title || fillTitle} | QUIKK`;
+  description = description || fillDesc;
   return (
     <GeneralDataProvider>
       <div className="fullpage">
@@ -15,13 +19,13 @@ const Layout = ({ title, description, children }) => {
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
           <meta property="og:site_name" content="QUIKK" />
-          <meta name="language" content="deutschland" />
-          <meta httpEquiv="language" content="DE" />
+          <meta name="language" content="de" />
+          <meta httpEquiv="language" content="de" />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta
             name="keywords"
-            content="QUIKK, Software, Softwareentwicklung, Software Entwicklung, Web, Webdesign, Web Design, Entwicklung, Development, Minden, Bielefeld, Hannover"
+            content="QUIKK, Software, Softwareentwicklung, Software Entwicklung, macOS, Apple, Windows, Linux, Mobile, mobile Apps, Apps, Handy, iOS, Android, Web, Webdesign, Web Design, Entwicklung, Development, Minden, Bielefeld, Hannover"
           />
           <meta name="author" content="QUIKK Software und Webdesign" />
           <meta name="copyright" content="QUIKK Software und Webdesign" />
