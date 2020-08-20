@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: var(--headerZIndex);
+  height: 3.5rem;
+  width: 100%;
+  color: var(--header-color);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:link,
+.header a:visited {
+  color: var(--header-color);
+}
+
+.header .link {
+  text-decoration: none;
+  position: relative;
+  margin: 0 1em;
+  color: var(--header-color);
+  z-index: var(--headerZIndex);
+  justify-content: center;
+  align-items: center;
+}
+
+.header .menu-toggle {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 17.5px;
+  height: 20px;
+  color: var(--header-color);
+  z-index: var(--headerZIndex);
+  margin: 0.5rem;
+}
+
+.header .fa-times {
+  color: var(--header-x-color);
+  z-index: var(--headerZIndex);
+}
+
+.header .bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--content-width);
+  max-width: var(--max-width);
+  z-index: var(--headerZIndex);
+  height: 100%;
+}
+
+.header .navigation-link-container-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  justify-content: space-between;
+  justify-content: center;
+  height: calc(100vh - 3.5rem);
+  margin-top: 3.5rem;
+  justify-content: flex-start;
+  font-size: 250%;
+}
+
+.header .navigation-link-container-mobile a {
+  font-weight: 700;
+}
+
+.header .navigation-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 66%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .header .link {
+    margin: 0.5rem;
+  }
+
+  .header .navigation-link-container-mobile {
+    display: flex;
+  }
+
+  .header .navigation-link-container {
+    display: none;
+  }
+
+  .header .menu-toggle {
+    display: flex;
+  }
+}
+
+.header-appearance {
+  z-index: var(--headerZIndex);
+  background-color: var(--header-bgcolor);
+  box-shadow: 0 1px 1px 0 var(--black-transparent);
+}
