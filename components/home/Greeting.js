@@ -4,11 +4,11 @@ const Greeting = () => {
   return (
     <div className="welcome">
       <div className="content">
-        <h1>QUIKK Webdesign und Software</h1>
-        <p>
-          bietet in Bielefeld und Minden individuelle Softwarelösungen, mobile
-          Apps und einzigartige Webauftritte an.
-        </p>
+        <h1>QUIKK Webdesign und Software bietet in Bielefeld und Minden</h1>
+        <h2>
+          individuelle Softwarelösungen, mobile Apps und einzigartige
+          Webauftritte an.
+        </h2>
       </div>
       <style jsx>{`
         .welcome {
@@ -18,6 +18,8 @@ const Greeting = () => {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          background-color: var(--black);
+          color: var(--white);
         }
 
         .content {

@@ -10,7 +10,6 @@ const Customers = () => {
       bgColor="var(--white)"
       textColor="var(--black)"
       title="Unsere Kunden"
-      globalClassName="top-border"
     >
       <div className="grid">
         {[

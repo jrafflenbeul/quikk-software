@@ -20,7 +20,7 @@ const ContactRef = () => {
           </p>
         </div>
         <div className="cta">
-          <h2 className="heading subtitle">Gehen Sie den ersten Schritt</h2>
+          <h4 className="heading subtitle">Gehen Sie den ersten Schritt</h4>
           <Link href="/kontakt">
             <a>
               <Button

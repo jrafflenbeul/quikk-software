@@ -1,23 +1,23 @@
 import React from "react";
 
-const Button = (props) => {
+const Button = ({ className, children, bgColor, textColor, width, border }) => {
   return (
-    <button {...props}>
-      {props.children}
+    <button className={className}>
+      {children}
       <style jsx>{`
         button {
-          background: ${props.bgColor};
-          border: ${props.border};
+          background: ${bgColor};
+          border: ${border};
           border-radius: 0px;
           box-shadow: none;
-          color: ${props.textColor};
+          color: ${textColor};
           cursor: pointer;
           flex: 0 0 auto;
           padding: 0.5rem;
           line-height: 1.3;
           font-family: Poppins, sans-serif;
           box-sizing: border-box;
-          width: ${props.width};
+          width: ${width};
         }
 
         button:focus {

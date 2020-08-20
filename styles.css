@@ -2,9 +2,7 @@
   --red: #ef5c4c;
   --black: #292929;
   --black-transparent: rgba(41, 41, 41, 0.08);
-  --black-seethru: rgba(41, 41, 41, 0.95);
-  --grey: #eee;
-  --dark-grey: #ddd;
+  --grey: #f7f7f7;
   --white: #fff;
   --header-x-color: var(--red);
   --header-bgcolor: var(--white);
@@ -32,7 +30,7 @@ body {
 }
 
 .outline {
-  color: transparent;
+  color: var(--white);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--black);
 }

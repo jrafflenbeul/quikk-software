@@ -62,14 +62,16 @@ const Services = () => {
         })}
       </div>
       <Link href="/leistungen">
-        <Button
-          className="heading"
-          border="1px solid black"
-          bgColor="var(--white)"
-          color="var(--black)"
-        >
-          Zu unseren Leistungen
-        </Button>
+        <a>
+          <Button
+            className="heading"
+            border="1px solid black"
+            bgColor="var(--white)"
+            color="var(--black)"
+          >
+            Zu unseren Leistungen
+          </Button>
+        </a>
       </Link>
       <style jsx>{`
         .grid {

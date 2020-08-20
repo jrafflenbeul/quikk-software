@@ -1,13 +1,18 @@
 import React from "react";
+import Link from "next/link";
 
 const Service = ({ src, heading, text }) => {
   return (
     <div className="service-component">
       <div className="wrapper">
-        <img
-          src={src}
-          alt={`${heading} wird neben Software und Webdesign von QUIKK in Bielefeld und Minden angeboten.`}
-        />
+        <Link href={`leistungen#${heading}`}>
+          <a>
+            <img
+              src={src}
+              alt={`${heading} wird neben Software und Webdesign von QUIKK in Bielefeld und Minden angeboten.`}
+            />
+          </a>
+        </Link>
         <h2 className="heading subtitle outline">{heading}</h2>
         <p>{text}</p>
       </div>
