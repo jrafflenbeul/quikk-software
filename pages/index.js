@@ -6,7 +6,7 @@ import Services from "../components/home/Services";
 import Greeting from "../components/home/Greeting";
 import Separator from "../components/misc/Separator";
 import Goal from "../components/home/Goal";
-
+import Welcome from "../components/home/Welcome";
 const index = () => {
   return (
     <Layout
@@ -14,7 +14,8 @@ const index = () => {
       description="Software und Webdesign im Raum Bielefeld. QUIKK ist Ihr Partner für individuelle Softwarelösungen, mobile Apps und einzigartige Webauftritte."
     >
       <Greeting />
-      <Separator backgroundColor="var(--white)" />
+      <Separator backgroundColor="var(--grey)" />
+      <Welcome />
       <Services />
       <Goal />
       <Customers />

@@ -2,7 +2,9 @@
   --red: #ef5c4c;
   --black: #292929;
   --black-transparent: rgba(41, 41, 41, 0.08);
-  --grey: #edf6f7;
+  --black-seethru: rgba(41, 41, 41, 0.95);
+  --grey: #f1f5f6;
+  --grey-seethru: rgba(241, 245, 246, 0.9);
   --white: #fff;
   --header-x-color: var(--red);
   --header-bgcolor: var(--white);
@@ -12,7 +14,7 @@
   --body-color: var(--black);
   --content-width: 90%;
   --max-width: 120rem;
-  --max-width-plain-text: 60rem;
+  --max-width-plain-text: 50rem;
   --headerZIndex: 2;
 }
 
@@ -30,10 +32,16 @@ body {
   font-weight: 500;
 }
 
-.outline {
-  color: var(--white);
+.outline-black {
+  color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--black);
+}
+
+.outline-white {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--white);
 }
 
 .title {

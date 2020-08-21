@@ -13,7 +13,7 @@ const Service = ({ src, heading, text }) => {
             />
           </a>
         </Link>
-        <h2 className="heading subtitle outline">{heading}</h2>
+        <h2 className="heading subtitle">{heading}</h2>
         <p>{text}</p>
       </div>
       <style jsx>{`
@@ -36,6 +36,7 @@ const Service = ({ src, heading, text }) => {
         .service-component .wrapper img {
           height: 10rem;
           margin-bottom: 1rem;
+          filter: grayscale(50%);
         }
 
         .service-component .wrapper p {
