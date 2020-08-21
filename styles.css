@@ -2,7 +2,7 @@
   --red: #ef5c4c;
   --black: #292929;
   --black-transparent: rgba(41, 41, 41, 0.08);
-  --grey: #f7f7f7;
+  --grey: #edf6f7;
   --white: #fff;
   --header-x-color: var(--red);
   --header-bgcolor: var(--white);
@@ -12,6 +12,7 @@
   --body-color: var(--black);
   --content-width: 90%;
   --max-width: 120rem;
+  --max-width-plain-text: 60rem;
   --headerZIndex: 2;
 }
 

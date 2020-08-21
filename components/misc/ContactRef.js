@@ -11,7 +11,7 @@ const ContactRef = () => {
       title="Lassen Sie uns gemeinsam an Ihrem Projekt arbeiten"
     >
       <div className="text-content">
-        <div clasname="info">
+        <div className="info">
           <p>
             Dabei spielt es keine Rolle, ob unsere Reise am Anfang Ihres
             Vorhabens beginnt, oder wir mittendrin starten. Vereinbaren Sie mit
@@ -47,7 +47,9 @@ const ContactRef = () => {
         .text-content div {
           max-width: 50%;
         }
-
+        .info p {
+          max-width: var(--max-width-plain-text);
+        }
         button {
           background: var(--white);
           border: 0px;
@@ -79,7 +81,7 @@ const ContactRef = () => {
           .text-content div:first-child {
             margin-bottom: 1rem;
           }
-          .text-content h2 {
+          .text-content h4 {
             display: none;
           }
         }

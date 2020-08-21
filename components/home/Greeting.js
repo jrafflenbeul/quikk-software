@@ -4,7 +4,7 @@ const Greeting = () => {
   return (
     <div className="welcome">
       <div className="content">
-        <h1>QUIKK Webdesign und Software bietet in Bielefeld und Minden</h1>
+        <h1>QUIKK Software und Webdesign bietet in Bielefeld und Minden</h1>
         <h2>
           individuelle Softwarelösungen, mobile Apps und einzigartige
           Webauftritte an.
