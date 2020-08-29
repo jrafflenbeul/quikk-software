@@ -8,7 +8,7 @@ const ContentComponent = ({
   globalClassName,
 }) => {
   return (
-    <div
+    <section
       className={`content-component ${globalClassName ? globalClassName : ""}`}
     >
       <div className="children">
@@ -36,7 +36,7 @@ const ContentComponent = ({
           justify-content: center;
         }
       `}</style>
-    </div>
+    </section>
   );
 };
 

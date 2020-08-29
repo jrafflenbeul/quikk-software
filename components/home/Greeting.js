@@ -45,7 +45,7 @@ const Greeting = () => {
         }
         .welcome {
           width: 100%;
-          height: calc(100vh - calc(2 * 3.5rem));
+          height: calc(100vh - 3.5rem);
           display: flex;
           flex-direction: column;
           align-items: center;

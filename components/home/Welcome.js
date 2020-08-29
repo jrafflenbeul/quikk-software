@@ -13,7 +13,7 @@ const Welcome = () => {
       <p>
         Wir sind ein junges, engagiertes Team bestehend aus leidenschaftlichen
         Softwareentwicklern und Webdesignern. Unser Ursprung liegt in Minden.
-        Dort haben uns neben unserem Masterstudium dazu entschieden, unser Hobby
+        Dort haben wir uns neben unserem Masterstudium dazu entschieden, unser Hobby
         zum Beruf zu machen. Wir bieten unter QUIKK individuelle
         Softwarelösungen, mobile Apps und einzigartige Webauftritte für den Raum
         Bielefeld und Minden an.
