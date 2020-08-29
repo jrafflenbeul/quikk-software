@@ -52,7 +52,7 @@ const Greeting = () => {
           justify-content: center;
           background-image: linear-gradient(
               var(--grey-seethru),
-              var(--grey-seethru)
+              var(--grey)
             ),
             url("/assets/office.jpg");
           background-size: cover;
