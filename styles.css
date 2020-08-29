@@ -3,8 +3,8 @@
   --black: #292929;
   --black-transparent: rgba(41, 41, 41, 0.08);
   --black-seethru: rgba(41, 41, 41, 0.95);
-  --grey: rgb(238,238,238);
-  --grey-seethru: rgba(238,238,238, 0.75);
+  --grey: rgb(250, 250, 250);
+  --grey-seethru: rgba(250, 250, 250, 0.75);
   --white: #fff;
   --header-x-color: var(--red);
   --header-bgcolor: var(--white);
