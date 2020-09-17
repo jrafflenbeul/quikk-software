@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import ContentComponent from "../components/misc/ContentComponent";
 
 const kontakt = () => {
   return (
     <Layout title="Kontakt" description="desc">
-      <h1>Kontakt</h1>
+      <ContentComponent title="Kontakt"></ContentComponent>
     </Layout>
   );
 };

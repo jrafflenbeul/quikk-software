@@ -70,3 +70,14 @@ p {
 .bottom-border {
   box-shadow: 0 1px 1px 0 var(--black-transparent);
 }
+
+.legal * {
+  text-align: left;
+  width: 100%;
+}
+
+.legal a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
-
+import ContentComponent from "../components/misc/ContentComponent";
 const leistungen = () => {
   return (
     <Layout title="Leistungen" description="desc">
-      <h1>Leistungen</h1>
+      <ContentComponent title="Leistungen"></ContentComponent>
     </Layout>
   );
 };

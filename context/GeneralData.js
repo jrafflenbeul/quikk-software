@@ -4,6 +4,10 @@ export const GeneralDataContext = React.createContext();
 
 export const GeneralDataProvider = ({ children }) => {
   const name = "QUIKK";
+  const legalOwner = "Lukas Weidich";
+  const legalName = "QUIKK Software und Webdesign";
+  const legalAddressStreet = "Hahler Straße 285";
+  const legalAddressZipCity = "32427 Minden";
   const mail = "mailto:info@quikk.de";
   const mailDisplay = "info@quikk.de";
   const phone = "tel:+4915736140978";
@@ -16,6 +20,10 @@ export const GeneralDataProvider = ({ children }) => {
     <GeneralDataContext.Provider
       value={{
         name,
+        legalOwner,
+        legalName,
+        legalAddressStreet,
+        legalAddressZipCity,
         mail,
         mailDisplay,
         phone,
