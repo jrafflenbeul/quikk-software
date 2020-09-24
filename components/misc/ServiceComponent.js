@@ -21,7 +21,7 @@ const ServiceComponent = ({ heading, text, img, reverse }) => {
           display: flex;
           flex-direction: ${reverse ? "row-reverse" : "row"};
           align-items: flex-start;
-          justify-content: space-evenly;
+          justify-content: space-between;
           height: 100%;
           max-width: var(--max-width-plain-text);
         }
