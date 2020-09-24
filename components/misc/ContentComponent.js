@@ -6,13 +6,18 @@ const ContentComponent = ({
   textColor,
   title,
   globalClassName,
+  maxWidth,
 }) => {
   return (
     <section
       className={`content-component ${globalClassName ? globalClassName : ""}`}
     >
       <div className="children">
-        {title && <h3 className="heading title">{title}</h3>}
+        {title && (
+          <h3 className={`heading title ${maxWidth ? "maxwidth" : ""}`}>
+            {title}
+          </h3>
+        )}
         {children}
       </div>
       <style jsx>{`
@@ -34,6 +39,11 @@ const ContentComponent = ({
           flex-direction: column;
           align-items: center;
           justify-content: center;
+        }
+        @media only screen and (max-width: 1280px) {
+          .maxwidth {
+            max-width: var(--max-width-plain-text);
+          }
         }
       `}</style>
     </section>

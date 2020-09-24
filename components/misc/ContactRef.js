@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import ContentComponent from "./ContentComponent";
-import Button from "../components/Button";
+import Button from "../general/Button";
 
 const ContactRef = () => {
   return (
@@ -9,6 +9,7 @@ const ContactRef = () => {
       bgColor="var(--black)"
       textColor="var(--white)"
       title="Lassen Sie uns gemeinsam an Ihrem Projekt arbeiten"
+      maxWidth={true}
     >
       <div className="text-content">
         <div className="info">
@@ -28,7 +29,7 @@ const ContactRef = () => {
                 bgColor="var(--white)"
                 textColor="var(--black)"
                 width="100%"
-                border="0"
+                border="1px solid var(--white)"
               >
                 Kontakt aufnehmen
               </Button>

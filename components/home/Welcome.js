@@ -1,6 +1,6 @@
 import React from "react";
 import ContentComponent from "../misc/ContentComponent";
-import Button from "../components/Button";
+import Button from "../general/Button";
 import Link from "next/link";
 
 const Welcome = () => {
@@ -22,7 +22,7 @@ const Welcome = () => {
         <a>
           <Button
             className="heading"
-            border="1px solid black"
+            border="1px solid var(--black)"
             bgColor="var(--white)"
             color="var(--black)"
           >

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({ className, children, bgColor, textColor, width, border }) => {
+const Button = ({ className, children, bgColor, color, width, border }) => {
   return (
     <button className={className}>
       {children}
@@ -10,7 +10,6 @@ const Button = ({ className, children, bgColor, textColor, width, border }) => {
           border: ${border};
           border-radius: 0px;
           box-shadow: none;
-          color: ${textColor};
           cursor: pointer;
           flex: 0 0 auto;
           padding: 0.5rem;
@@ -18,6 +17,7 @@ const Button = ({ className, children, bgColor, textColor, width, border }) => {
           font-family: Poppins, sans-serif;
           box-sizing: border-box;
           width: ${width};
+          color: ${color};
         }
 
         button:focus {

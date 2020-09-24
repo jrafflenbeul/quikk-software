@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import { sanitizeIds } from "../../util/replaceAll";
 
 const Service = ({ src, heading, text }) => {
   return (
     <div className="service-component">
       <div className="wrapper">
-        <Link href={`leistungen#${heading}`}>
+        <Link href={`/leistungen#${sanitizeIds(heading)}`}>
           <a>
             <img
               src={src}
