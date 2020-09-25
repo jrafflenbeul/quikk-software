@@ -40,19 +40,19 @@ const leistungen = () => {
               heading: "Webdesign",
               text:
                 "Weniger ist mehr! So lautet unser Motto, wenn wir Ihre neue Website gestalten. Wir legen Wert auf eine moderne und einheitliche Designsprache und setzen auf die Verwendung modernster Web-Technologien.",
-              src: "../../assets/webdesign.svg",
+              src: "assets/webdesign.svg",
             },
             {
               heading: "SEO",
               text:
                 "Durch eine Suchmaschinenoptimierung (SEO) wird Ihre Website in Suchmaschinen wie z.B. Google besser geranked und früher angezeigt. Kunden können Sie dadurch einfacher finden und schneller erreichen.",
-              src: "../../assets/seo.svg",
+              src: "assets/seo.svg",
             },
             {
               heading: "Agiles Vorgehen",
               text:
                 "Agile Softwareentwicklung legt den Grundstein für die hohe Qualität unserer Arbeit. Darüber hinaus erlaubt uns die agile Vorgehensweise eine zeitsparende, budgetorientierte und risikofreie Planung und Entwicklung Ihres Projekts.",
-              src: "../../assets/agility.svg",
+              src: "assets/agility.svg",
             },
             {
               heading: "Kommunikation",

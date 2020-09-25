@@ -1,7 +1,7 @@
 import React from "react";
 import { sanitizeIds } from "../../util/replaceAll";
 
-const ServiceComponent = ({ heading, text, img, reverse }) => {
+const ServiceComponent = ({ heading, text, src, reverse }) => {
   return (
     <div id={sanitizeIds(heading)} className="service-component">
       <div className="text">
@@ -10,7 +10,7 @@ const ServiceComponent = ({ heading, text, img, reverse }) => {
       </div>
       <div className="image">
         <img
-          src={"https://via.placeholder.com/250"}
+          src={src}
           alt={`${heading} wird neben Software und Webdesign von QUIKK in Bielefeld und Minden angeboten.`}
         />
       </div>
@@ -21,17 +21,18 @@ const ServiceComponent = ({ heading, text, img, reverse }) => {
           display: flex;
           flex-direction: ${reverse ? "row-reverse" : "row"};
           align-items: flex-start;
-          justify-content: space-between;
-          height: 100%;
-          max-width: var(--max-width-plain-text);
+          justify-content: center;
+          max-width: calc(2rem + var(--max-width-plain-text));
         }
         .text,
         .image {
-          max-width: 50%;
+          max-height: 50px
+          max-width: 45%;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          padding: 1rem;
         }
         .text > h2,
         .image > img {
@@ -44,12 +45,14 @@ const ServiceComponent = ({ heading, text, img, reverse }) => {
           }
           .text,
           .image {
-            max-width: unset;
+            max-width: var(--max-width);
           }
           .text > h2,
           .image > img {
             padding: 1rem;
-            width: unset;
+          }
+          .image > img {
+            max-height: 300px
           }
         }
       `}</style>
