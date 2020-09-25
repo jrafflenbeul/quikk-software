@@ -1,8 +1,16 @@
 import React from "react";
 
-const Button = ({ className, children, bgColor, color, width, border }) => {
+const Button = ({
+  className,
+  children,
+  bgColor,
+  color,
+  width,
+  border,
+  onClick,
+}) => {
   return (
-    <button className={className}>
+    <button className={className} onClick={onClick}>
       {children}
       <style jsx>{`
         button {

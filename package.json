@@ -4,8 +4,10 @@
   "description": "<!-- **quikk-software/quikk-software** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.20.0",
     "dotenv": "^8.2.0",
     "next": "^9.5.2",
+    "nodemailer": "^6.4.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-typed": "^1.2.0"
