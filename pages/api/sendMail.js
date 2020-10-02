@@ -19,7 +19,7 @@ async function sendViaNodemailerAndReturnInfo({ firstName, lastName }) {
   });
 
   let info = await transporter.sendMail({
-    from: '"QUIKK Software und Webdesign" <noreply@quikk.de>',
+    from: `"QUIKK Software und Webdesign" <${process.env.MAIL_USER}>`,
     to: "info@quikk.de, lukas@quikk.de, joyce@quikk.de",
     subject: firstName,
     text: lastName,
